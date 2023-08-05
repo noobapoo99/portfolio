@@ -462,22 +462,22 @@ font-weight: var(--font-medium);
     background-color: var(--first-color);
 }
 .skills__html{
-    width: 40% ;
+    width: 80% ;
 }
 .skills__css{
-    width: 50% ;
+    width: 70% ;
 }
 .skills__javascript{
-    width: 10% ;
+    width: 20% ;
 }
 .skills__react{
-    width: 0% ;
+    width: 10% ;
 }
 .skills__php{
-    width: 0% ;
+    width: 30% ;
 }
 .skills__node{
-    width: 0% ;
+    width: 10% ;
 }
 .skills__firebase{
     width: 0% ;
@@ -664,7 +664,7 @@ font-weight: var(--font-medium);
     justify-self: center;
 }
 .portfolio__title{
-    font-size: var(--mb-0-5);
+    font-size: var(--mb-1-5);
     margin-bottom: var(--mb-0-5);
 }
 .portfolio__description{
