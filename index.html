@@ -530,7 +530,7 @@
                 I made a Blood bank management website for IRCS lucknow . This Website is adaptable to all devices and
                 animated interaction.
               </p>
-              <a href="video_AdobeExpress.gif" target="_blank" class="button button--flex button--small portfolio__button">
+              <a href="gif.gif" target="_blank" class="button button--flex button--small portfolio__button">
                 <!-- <a download="cv.pdf" href="" class="button button__flex"> -->
                 Demo
                 <i class="uil uil-arrow-right button__icon"></i>
@@ -538,6 +538,23 @@
             </div>
           </div>
           <!--portfolio 2-->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="Real_img.png" alt="" class="portfolio__img" />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Real Estate website</h3>
+              <p class="portflio__description">
+                Developing a Real Estate website using react,Tailwind CSS and React Map .
+                Backened is being done using MERN stack.
+              </p>
+              <a href="https://github.com/noobapoo99/Real_estate" target="_blank"
+                class="button button--flex button--small portfolio__button">
+                <!-- <a download="cv.pdf" href="" class="button button__flex"> -->
+                Demo
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+            </div>
+          </div>
+          <!--portfolio 3-->
           <div class="portfolio__content grid swiper-slide">
             <img src="gallery.png" alt="" class="portfolio__img" />
             <div class="portfolio__data">
@@ -552,7 +569,7 @@
               </a>
             </div>
           </div>
-          <!--portfolio 3-->
+          <!--portfolio 4-->
           <div class="portfolio__content grid swiper-slide">
             <img src="quiz.png" alt="" class="portfolio__img" />
             <div class="portfolio__data">
@@ -629,7 +646,7 @@
       <span class="section__subtitle">get in touch</span>
       <div class="contact__container container grid">
         <div>
-          
+
           <div class="contact__information">
             <i class="uil uil-phone contact__icon"></i>
             <div>
@@ -730,23 +747,23 @@
   <script src="swiper-bundle.min.js"></script>
   <!--main js-->
   <script src="main.js"></script>
-   <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
   <script>
-      function sendemail(){
-        Email.send({
-            Host : "smtp.elasticemail.com",
-            Username : "apoorvtripathi99@gmail.com",
-            Password : "48B97F0A2E619A6485707321E59E495A7D86",
-            To : 'apoorvnathtripathi99@gmail.com',
-            From : "appooicecream3445@gmail.com",
-            Subject : "This is the subject"+document.getElementById("nm").value,
-            Body : "And this is the body"+document.getElementById("nm").value,
-}).then(
-  message => alert(message)
-);
-      }
-    </script> 
-  
+    function sendemail() {
+      Email.send({
+        Host: "smtp.elasticemail.com",
+        Username: "apoorvtripathi99@gmail.com",
+        Password: "48B97F0A2E619A6485707321E59E495A7D86",
+        To: 'apoorvnathtripathi99@gmail.com',
+        From: "appooicecream3445@gmail.com",
+        Subject: "This is the subject" + document.getElementById("nm").value,
+        Body: "And this is the body" + document.getElementById("nm").value,
+      }).then(
+        message => alert(message)
+      );
+    }
+  </script>
+
 </body>
 
 </html>
